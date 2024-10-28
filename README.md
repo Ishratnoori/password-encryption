@@ -39,6 +39,20 @@
   <li>💡 It helps you manage your passwords efficiently and securely using modern encryption techniques.</li>
 </ul>
 
+## Password Encryption Enhancement
+
+This project now uses a more secure password encryption method using **AES-256** and **PBKDF2**.
+
+### How It Works
+- **PBKDF2**: Creates an encryption key by applying multiple rounds of hashing to enhance security.
+
+### Usage
+To encrypt a password, run the following command:
+
+```bash
+node index.js
+```
+
 <h2><img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 30px height="38"> Features</h2>
 <ul>
   <li>💾 <b>Add Password</b>: Save a new password with a website URL, username, and password.</li>
